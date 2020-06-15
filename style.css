@@ -1,4 +1,43 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
+  background-color: whitesmoke;
+  font-family: montserrat;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: #fdd4c1;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline;
+  padding: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  color: #96bdc4;
+  text-align: center;
+}
+
+h3 {
+  color: #c2dbdf;
+  text-align: center;
+}
+
+section p.abouttext{
+  padding: 10px 2px 10px 2px;
+  margin-left: 20px;
+}
+
+h3.titlee{
+  margin-top: 10px;
 }
